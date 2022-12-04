@@ -151,7 +151,7 @@ def main():
             cls_loss = cls_criterion(pred, batch_y)
 
             if lm_loss.item() > 1.5:
-                loss = lm_loss / 100000 + cls_loss
+                loss = lm_loss / 1000000 + cls_loss
             else:
                 loss = cls_loss  # + lm_loss
             loss.backward()
