@@ -14,7 +14,7 @@ import math
 from sentence_transformers import SentenceTransformer
 from nltk.stem import WordNetLemmatizer
 
-Boundrate = 0
+Boundrate = 0.01
 
 # Refer to https://github.com/UKPLab/sentence-transformers to download Sentence-BERT pre-training model
 model = SentenceTransformer('sentence-transformers/bert-base-nli-mean-tokens')
