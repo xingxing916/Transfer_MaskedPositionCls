@@ -1,7 +1,6 @@
-# Transfer Impv
+# Transfer_MaskedPositionCls
 
-### preprocess impv
-* LARE method
+### run preprocess 
 * prepare file:
   * download gloss_embedding.npy in https://cloud.tsinghua.edu.cn/d/f6baaff5c398463388b2/ to src_LARE/
   * download SentiWordNet_3.0.0.txt in https://github.com/aesuli/SentiWordNet to src_LARE/
@@ -15,7 +14,6 @@ bash ./scripts/LARE/preprocess_yelp_LARE.sh
 ```
 to preprocess the raw data using LARE method
 
-In fact, the preprocessed data are contained in the project
 
 ***
 
